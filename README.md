@@ -1,3 +1,14 @@
+# Run with moreh
+
+    conda create -n fa python=3.8
+    update-moreh --force
+    pip install -r requirements.txt
+    python setup.py install
+    conda install -c conda-forge ffmpeg
+
+  Read Python snippets below for usage
+
+
 # Face Recognition
 
 Detect facial landmarks from Python using the world's most accurate face alignment network, capable of detecting points in both 2D and 3D coordinates.
